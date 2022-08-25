@@ -1,0 +1,325 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    display: block;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: auto;
+}
+
+.bar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bar:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.white {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.white1:hover {
+    color: #000;
+    padding: 8px 16px;
+    background-color: grey;
+
+}
+
+.padding {
+    padding: 8px 16px !important;
+    FONT-WEIGHT: 100;
+}
+
+.card {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+
+
+
+.button {
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font: inherit;
+    margin: 0;
+    writing-mode: horizontal-tb !important;
+    letter-spacing: normal;
+    text-rendering: auto;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+
+}
+
+/* right sided nav bar link */
+.right {
+    float: right !important;
+    margin-right: 40px;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display-container {
+    position: relative;
+}
+
+.wide {
+    letter-spacing: 4px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.padding-large1 {
+    padding: 12px 24px !important;
+
+}
+
+.padding-large2 {
+    float: right !important;
+    margin-top: -58%;
+    margin-left: 20%;
+
+}
+
+.opacity {
+    opacity: 0.60;
+}
+
+.opacity-min {
+    opacity: 0.75;
+}
+
+.display-bottomleft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.xxlarge {
+    font-size: 36px !important;
+}
+
+
+.padding-66 {
+    position: relative;
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+}
+
+.col {
+    float: left;
+    width: 100%;
+}
+
+
+
+
+.padding-65 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+
+}
+
+.row::before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+.round {
+    border-radius: 4px;
+}
+
+h2,
+h3,
+h4,
+h6 {
+    font-family:
+        "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h5 {
+    font-size: 18px;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+
+}
+
+h1 {
+    font-size: 36px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    margin: 10px 0;
+    letter-spacing: 5px;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.large {
+    font-size: 18px !important;
+}
+
+.light-grey {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+
+}
+
+.tag {
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.text-grey {
+    color: #757575 !important;
+}
+
+.p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+
+.container {
+    padding: 0.01em 16px;
+
+}
+
+.container:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-blue-grey {
+    color: #607d8b !important;
+}
+
+.padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.section {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.padding-32 {
+    padding-top: 42px !important;
+    padding-bottom: 42px !important;
+    width: 100%;
+}
+
+@media (min-width: 601px) {
+    .col {
+        width: 49.99999%;
+    }
+}
